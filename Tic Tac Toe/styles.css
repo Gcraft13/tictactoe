@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P";
+}
+
+body {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+h1 {
+  padding: 10px;
+  margin: 10px;
+}
+
+#cellcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+}
+
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#gameBoard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#boardText {
+  margin-top: 25px;
+}
+
+#restartBtn {
+  padding: 10px;
+  margin-top: 25px;
+  align-self: center;
+}
